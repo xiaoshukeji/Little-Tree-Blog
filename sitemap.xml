@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiaoshukeji.github.io/about/index.html</loc>
+    
+    <lastmod>2022-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaoshukeji.github.io/%E7%95%99%E8%A8%80%E6%9D%BF/index.html</loc>
     
     <lastmod>2022-12-06</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://xiaoshukeji.github.io/schedule/index.html</loc>
-    
-    <lastmod>2022-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoshukeji.github.io/about/index.html</loc>
     
     <lastmod>2022-12-06</lastmod>
     
