@@ -20,25 +20,44 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"xiaoshukeji.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="小树的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="xiaoshu&#39;s Blog">
-<meta property="og:url" content="https://xiaoshukeji.github.io/index.html">
+    <meta name="description" content="前言经过了快一星期的折腾，我的博客的各项功能也在陆续开通中，本文就来记录一下hexo + github pages心路历程及配置方法。 本文转载于国内大神：Vince 不想自己弄？来这看看：aaben的闲鱼小店 可以通过右边的文章目录快速跳转哦！   安装hexo需要准备的东西github账号git(本地)node.jsnpm个人域名(可选) 安装流程申请github账号这里xxx填写你的git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo基本安装及配置">
+<meta property="og:url" content="https://xiaoshukeji.github.io/2022/12/05/hexo%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/index.html">
 <meta property="og:site_name" content="xiaoshu&#39;s Blog">
-<meta property="og:description" content="小树的博客">
+<meta property="og:description" content="前言经过了快一星期的折腾，我的博客的各项功能也在陆续开通中，本文就来记录一下hexo + github pages心路历程及配置方法。 本文转载于国内大神：Vince 不想自己弄？来这看看：aaben的闲鱼小店 可以通过右边的文章目录快速跳转哦！   安装hexo需要准备的东西github账号git(本地)node.jsnpm个人域名(可选) 安装流程申请github账号这里xxx填写你的git">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/1.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/2.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/3.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/4.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/5.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/6.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/7.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/8.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/9.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/10.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/11.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/12.png">
+<meta property="og:image" content="https://xiaoshukeji.github.io/storehouse/13.png">
+<meta property="article:published_time" content="2022-12-05T13:33:45.000Z">
+<meta property="article:modified_time" content="2022-12-06T03:54:38.543Z">
 <meta property="article:author" content="小树">
+<meta property="article:tag" content="网站">
+<meta property="article:tag" content="Github">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://xiaoshukeji.github.io/storehouse/1.png">
 
 
-<link rel="canonical" href="https://xiaoshukeji.github.io/">
+<link rel="canonical" href="https://xiaoshukeji.github.io/2022/12/05/hexo%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://xiaoshukeji.github.io/2022/12/05/hexo%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/","path":"2022/12/05/hexo基本安装及配置/","title":"hexo基本安装及配置"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>xiaoshu's Blog</title>
+<title>hexo基本安装及配置 | xiaoshu's Blog</title>
   
 
 
@@ -69,7 +88,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">xiaoshu's Blog</h1>
+      <p class="site-title">xiaoshu's Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -128,7 +147,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -141,6 +160,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85hexo"><span class="nav-number">2.</span> <span class="nav-text">安装hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E5%87%86%E5%A4%87%E7%9A%84%E4%B8%9C%E8%A5%BF"><span class="nav-number">2.1.</span> <span class="nav-text">需要准备的东西</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B"><span class="nav-number">2.2.</span> <span class="nav-text">安装流程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%B3%E8%AF%B7github%E8%B4%A6%E5%8F%B7"><span class="nav-number">2.2.1.</span> <span class="nav-text">申请github账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E4%BB%93%E5%BA%93"><span class="nav-number">2.2.2.</span> <span class="nav-text">创建一个新的仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%B5%E8%84%91%E4%B8%8A%E5%AE%89%E8%A3%85-git"><span class="nav-number">2.2.3.</span> <span class="nav-text">电脑上安装 git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%B5%E8%84%91%E4%B8%8A%E5%AE%89%E8%A3%85-node-js"><span class="nav-number">2.2.4.</span> <span class="nav-text">电脑上安装 node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">2.2.5.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E5%88%B0github-pages"><span class="nav-number">2.2.6.</span> <span class="nav-text">配置到github pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BF%E9%97%AE%E7%BD%91%E9%A1%B5"><span class="nav-number">2.2.7.</span> <span class="nav-text">访问网页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%91%E5%AE%9A%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89"><span class="nav-number">2.2.8.</span> <span class="nav-text">绑定你自己的域名（可选）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%8F%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">小结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Upcoming-Next"><span class="nav-number">3.1.</span> <span class="nav-text">Upcoming Next</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">4.</span> <span class="nav-text">Reference</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -193,16 +213,17 @@
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://xiaoshukeji.github.io/2022/12/05/hexo%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -216,13 +237,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | xiaoshu's Blog">
+      <meta itemprop="name" content="hexo基本安装及配置 | xiaoshu's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/05/hexo%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/" class="post-title-link" itemprop="url">hexo基本安装及配置</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          hexo基本安装及配置
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -276,7 +297,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <hr>
+        <hr>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>经过了快一星期的折腾，我的博客的各项功能也在陆续开通中，本文就来记录一下hexo + github pages心路历程及配置方法。</p>
 <p>本文转载于国内大神：<a target="_blank" rel="noopener" href="https://haomingzhang.com/hexo_1/#%E5%AE%89%E8%A3%85hexo">Vince</a></p>
 <p>不想自己弄？来这看看：<a target="_blank" rel="noopener" href="https://m.tb.cn/h.U8Zh9J2?tk=1FYfdWYHfUZ">aaben的闲鱼小店</a></p>
@@ -345,7 +366,6 @@
 <p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎</a></p>
 <div class="note danger"><p>本文作者： xiaoshu<br>本文链接： <a target="_blank" rel="noopener" href="https://www.xiaoshu.com/">https://www.xiaoshu.com</a><br>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>
 </div>
-      
     </div>
 
     
@@ -353,108 +373,27 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-tags">
+              <a href="/tags/%E7%BD%91%E7%AB%99/" rel="tag"># 网站</a>
+              <a href="/tags/Github/" rel="tag"># Github</a>
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"># 博客</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/12/05/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/" rel="prev" title="欢迎来到我的博客">
+                  <i class="fa fa-chevron-left"></i> 欢迎来到我的博客
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://xiaoshukeji.github.io/2022/12/05/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="小树">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="xiaoshu's Blog">
-      <meta itemprop="description" content="小树的博客">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | xiaoshu's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/05/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">欢迎来到我的博客</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-12-05 15:45:17 / 修改时间：18:06:41" itemprop="dateCreated datePublished" datetime="2022-12-05T15:45:17+08:00">2022-12-05</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>302</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="xiaoshu的博客终于开通了！"><a href="#xiaoshu的博客终于开通了！" class="headerlink" title="xiaoshu的博客终于开通了！"></a>xiaoshu的博客终于开通了！</h1><p>经过了一天的摸索和实践，加上踩了无数的坑，终于通过 Hexo 加 Github成功实现了自己的博客！这个域名很早就买了，当时想的是用自己搬瓦工的服务器自己搭建，但是一直没时间去学习，加上本人对前端知识可谓是一窍不通就一直搁置了。前几天在网上看到有大佬分享自己搭博客的经验，自己瞬间来了兴趣故搭建了本站。</p>
-<h1 id="本站用途"><a href="#本站用途" class="headerlink" title="本站用途"></a>本站用途</h1><p>本站主要用来记录本人学习过程中的各种点滴以及网络上自己觉得有用的文章，希望大家可以一起学习，相互勉励！</p>
-<div class="note danger"><p>本文作者： xiaoshu<br>本文链接： <a target="_blank" rel="noopener" href="https://www.xiaoshu.com/">https://www.xiaoshu.com</a><br>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>
-</div>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
