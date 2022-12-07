@@ -3,10 +3,11 @@
   <entry>
     <title>hexo基本安装及配置</title>
     <url>/2022/12/05/hexo%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<hr>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>经过了快一星期的折腾，我的博客的各项功能也在陆续开通中，本文就来记录一下hexo + github pages心路历程及配置方法。</p>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>经过了快一星期的折腾，我的博客的各项功能也在陆续开通中，本文就来记录一下hexo + github pages心路历程及配置方法。</p>
 <p>本文转载于国内大神：<a href="https://haomingzhang.com/hexo_1/#%E5%AE%89%E8%A3%85hexo">Vince</a></p>
 <p>不想自己弄？来这看看：<a href="https://m.tb.cn/h.U8Zh9J2?tk=1FYfdWYHfUZ">aaben的闲鱼小店</a></p>
+<span id="more"></span>
+
 <div class="note default">
             <p>可以通过右边的文章目录快速跳转哦！</p>
           </div>
@@ -84,9 +85,27 @@
       </tags>
   </entry>
   <entry>
+    <title>“我们”的美好时光</title>
+    <url>/2022/12/07/%E2%80%9C%E6%88%91%E4%BB%AC%E2%80%9D%E7%9A%84%E7%BE%8E%E5%A5%BD%E6%97%B6%E5%85%89/</url>
+    <content><![CDATA[<p>123</p>
+<span id="more"></span>
+<p>456</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>网站</tag>
+        <tag>Github</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>欢迎来到我的博客</title>
     <url>/2022/12/05/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="xiaoshu的博客终于开通了！"><a href="#xiaoshu的博客终于开通了！" class="headerlink" title="xiaoshu的博客终于开通了！"></a>xiaoshu的博客终于开通了！</h1><p>经过了一天的摸索和实践，加上踩了无数的坑，终于通过 Hexo 加 Github成功实现了自己的博客！这个域名很早就买了，当时想的是用自己搬瓦工的服务器自己搭建，但是一直没时间去学习，加上本人对前端知识可谓是一窍不通就一直搁置了。前几天在网上看到有大佬分享自己搭博客的经验，自己瞬间来了兴趣故搭建了本站。</p>
+<span id="more"></span>
+
 <h1 id="本站用途"><a href="#本站用途" class="headerlink" title="本站用途"></a>本站用途</h1><p>本站主要用来记录本人学习过程中的各种点滴以及网络上自己觉得有用的文章，希望大家可以一起学习，相互勉励！</p>
 <div class="note danger">
             <p>本文作者： xiaoshu<br>本文链接： <a href="https://www.xiaoshu.com/">https://www.xiaoshu.com</a><br>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>
