@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>欢迎来到我的博客</title>
-    <url>/2022/12/05/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="xiaoshu的博客终于开通了！"><a href="#xiaoshu的博客终于开通了！" class="headerlink" title="xiaoshu的博客终于开通了！"></a>xiaoshu的博客终于开通了！</h1><p>经过了一天的摸索和实践，加上踩了无数的坑，终于通过 Hexo 加 Github成功实现了自己的博客！这个域名很早就买了，当时想的是用自己搬瓦工的服务器自己搭建，但是一直没时间去学习，加上本人对前端知识可谓是一窍不通就一直搁置了。前几天在网上看到有大佬分享自己搭博客的经验，自己瞬间来了兴趣故搭建了本站。</p>
-<h1 id="本站用途"><a href="#本站用途" class="headerlink" title="本站用途"></a>本站用途</h1><p>本站主要用来记录本人学习过程中的各种点滴以及网络上自己觉得有用的文章，希望大家可以一起学习，相互勉励！</p>
-<div class="note danger"><p>本文作者： xiaoshu<br>本文链接： <a href="https://www.xiaoshu.com/">https://www.xiaoshu.com</a><br>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>
-</div>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>网站</tag>
-        <tag>Github</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo基本安装及配置</title>
     <url>/2022/12/05/hexo%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>经过了快一星期的折腾，我的博客的各项功能也在陆续开通中，本文就来记录一下hexo + github pages心路历程及配置方法。</p>
 <p>本文转载于国内大神：<a href="https://haomingzhang.com/hexo_1/#%E5%AE%89%E8%A3%85hexo">Vince</a></p>
 <p>不想自己弄？来这看看：<a href="https://m.tb.cn/h.U8Zh9J2?tk=1FYfdWYHfUZ">aaben的闲鱼小店</a></p>
-<div class="note default"><p>可以通过右边的文章目录快速跳转哦！</p>
-</div>
+<div class="note default">
+            <p>可以通过右边的文章目录快速跳转哦！</p>
+          </div>
 
 <h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><h2 id="需要准备的东西"><a href="#需要准备的东西" class="headerlink" title="需要准备的东西"></a>需要准备的东西</h2><p>github账号<br>git(本地)<br>node.js<br>npm<br>个人域名(可选)</p>
 <h2 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a>安装流程</h2><h3 id="申请github账号"><a href="#申请github账号" class="headerlink" title="申请github账号"></a>申请github账号</h3><p>这里xxx填写你的<a href="www.github.com">github</a>账户名称。如图：</p>
@@ -87,8 +71,27 @@
 <h2 id="Upcoming-Next"><a href="#Upcoming-Next" class="headerlink" title="Upcoming Next"></a>Upcoming Next</h2><p>Next 8.0 主题配置 （未更新）</p>
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://haomingzhang.com/">Vince’s Blog</a></p>
 <p><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎</a></p>
-<div class="note danger"><p>本文作者： xiaoshu<br>本文链接： <a href="https://www.xiaoshu.com/">https://www.xiaoshu.com</a><br>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>
-</div>]]></content>
+<div class="note danger">
+            <p>本文作者： xiaoshu<br>本文链接： <a href="https://www.xiaoshu.com/">https://www.xiaoshu.com</a><br>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>
+          </div>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>网站</tag>
+        <tag>Github</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>欢迎来到我的博客</title>
+    <url>/2022/12/05/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="xiaoshu的博客终于开通了！"><a href="#xiaoshu的博客终于开通了！" class="headerlink" title="xiaoshu的博客终于开通了！"></a>xiaoshu的博客终于开通了！</h1><p>经过了一天的摸索和实践，加上踩了无数的坑，终于通过 Hexo 加 Github成功实现了自己的博客！这个域名很早就买了，当时想的是用自己搬瓦工的服务器自己搭建，但是一直没时间去学习，加上本人对前端知识可谓是一窍不通就一直搁置了。前几天在网上看到有大佬分享自己搭博客的经验，自己瞬间来了兴趣故搭建了本站。</p>
+<h1 id="本站用途"><a href="#本站用途" class="headerlink" title="本站用途"></a>本站用途</h1><p>本站主要用来记录本人学习过程中的各种点滴以及网络上自己觉得有用的文章，希望大家可以一起学习，相互勉励！</p>
+<div class="note danger">
+            <p>本文作者： xiaoshu<br>本文链接： <a href="https://www.xiaoshu.com/">https://www.xiaoshu.com</a><br>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>
+          </div>
+]]></content>
       <categories>
         <category>hexo</category>
       </categories>
