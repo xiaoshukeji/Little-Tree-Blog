@@ -408,19 +408,23 @@
             
   <article id="comments" lazyload>
     
-  <div id="gitalk-container"></div>
+  <div id="valine"></div>
   <script type="text/javascript">
-    Fluid.utils.loadComments('#gitalk-container', function() {
-      Fluid.utils.createCssLink('/css/gitalk.css')
-      Fluid.utils.createScript('https://lib.baomitu.com/gitalk/1.8.0/gitalk.min.js', function() {
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
         var options = Object.assign(
-          {"clientID":"9b1626fe3776706e94e3","clientSecret":"d71f1184f09a73ba7866c140ea5ccbf7cd5e461b","repo":"xiaoshutalk","owner":"wanghanduo","admin":["wanghanduo"],"language":"zh-CN","labels":["Gitalk"],"perPage":10,"pagerDirection":"first","distractionFreeMode":true,"createIssueManually":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},
+          {"appId":"gm4HvzyJDJydv20XEEpXXwlz-gzGzoHsz","appKey":"P3xbC01gSqxXusAil7jvXMA1","path":"window.location.pathname","placeholder":"评论....","avatar":"robohash","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":true},
           {
-            id: '48791626244751dce0424cdf27e0ffe7'
+            el: "#valine",
+            path: window.location.pathname
           }
         )
-        var gitalk = new Gitalk(options);
-        gitalk.render('gitalk-container');
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
       });
     });
   </script>
