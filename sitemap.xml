@@ -94,7 +94,7 @@
 
   <url>
     <loc>https://xiaoshukeji.github.io/</loc>
-    <lastmod>2022-12-09</lastmod>
+    <lastmod>2022-12-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,21 +102,21 @@
   
   <url>
     <loc>https://xiaoshukeji.github.io/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2022-12-09</lastmod>
+    <lastmod>2022-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiaoshukeji.github.io/tags/Github/</loc>
-    <lastmod>2022-12-09</lastmod>
+    <lastmod>2022-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiaoshukeji.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-12-09</lastmod>
+    <lastmod>2022-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -125,7 +125,7 @@
   
   <url>
     <loc>https://xiaoshukeji.github.io/categories/hexo/</loc>
-    <lastmod>2022-12-09</lastmod>
+    <lastmod>2022-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
