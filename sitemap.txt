@@ -10,11 +10,11 @@ https://xiaoshukeji.github.io/schedule/index.html
 https://xiaoshukeji.github.io/categories/index.html
 https://xiaoshukeji.github.io/tags/index.html
 https://xiaoshukeji.github.io/
-https://xiaoshukeji.github.io/tags/%E7%BD%91%E7%AB%99/
-https://xiaoshukeji.github.io/tags/Github/
-https://xiaoshukeji.github.io/tags/%E5%8D%9A%E5%AE%A2/
 https://xiaoshukeji.github.io/tags/%E4%BA%94%E7%BA%A7/
 https://xiaoshukeji.github.io/tags/ESP32/
 https://xiaoshukeji.github.io/tags/Ardino/
-https://xiaoshukeji.github.io/categories/hexo/
+https://xiaoshukeji.github.io/tags/%E7%BD%91%E7%AB%99/
+https://xiaoshukeji.github.io/tags/Github/
+https://xiaoshukeji.github.io/tags/%E5%8D%9A%E5%AE%A2/
 https://xiaoshukeji.github.io/categories/%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%AD%90%E5%8D%8F%E4%BC%9A/
+https://xiaoshukeji.github.io/categories/hexo/
