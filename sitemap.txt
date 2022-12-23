@@ -10,9 +10,9 @@ https://xiaoshukeji.github.io/Expand/index.html
 https://xiaoshukeji.github.io/404/index.html
 https://xiaoshukeji.github.io/schedule/index.html
 https://xiaoshukeji.github.io/
-https://xiaoshukeji.github.io/tags/%E5%9C%B0%E5%B9%B3%E7%BA%BF/
 https://xiaoshukeji.github.io/tags/%E7%BD%91%E7%AB%99/
 https://xiaoshukeji.github.io/tags/Github/
 https://xiaoshukeji.github.io/tags/%E5%8D%9A%E5%AE%A2/
-https://xiaoshukeji.github.io/categories/%E6%B8%B8%E6%88%8F/
+https://xiaoshukeji.github.io/tags/%E5%9C%B0%E5%B9%B3%E7%BA%BF/
 https://xiaoshukeji.github.io/categories/hexo/
+https://xiaoshukeji.github.io/categories/%E6%B8%B8%E6%88%8F/
