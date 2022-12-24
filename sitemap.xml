@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiaoshukeji.github.io/2022/12/24/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E5%B0%8F%E6%A0%91%E7%A7%91%E6%8A%80/</loc>
+    
+    <lastmod>2022-12-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaoshukeji.github.io/2022/12/05/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2022-12-23</lastmod>
@@ -103,7 +112,7 @@
 
   <url>
     <loc>https://xiaoshukeji.github.io/</loc>
-    <lastmod>2022-12-23</lastmod>
+    <lastmod>2022-12-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,28 +120,28 @@
   
   <url>
     <loc>https://xiaoshukeji.github.io/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2022-12-23</lastmod>
+    <lastmod>2022-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiaoshukeji.github.io/tags/Github/</loc>
-    <lastmod>2022-12-23</lastmod>
+    <lastmod>2022-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiaoshukeji.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-12-23</lastmod>
+    <lastmod>2022-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiaoshukeji.github.io/tags/%E5%9C%B0%E5%B9%B3%E7%BA%BF/</loc>
-    <lastmod>2022-12-23</lastmod>
+    <lastmod>2022-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -141,14 +150,14 @@
   
   <url>
     <loc>https://xiaoshukeji.github.io/categories/hexo/</loc>
-    <lastmod>2022-12-23</lastmod>
+    <lastmod>2022-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiaoshukeji.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2022-12-23</lastmod>
+    <lastmod>2022-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
